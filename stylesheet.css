@@ -5,7 +5,6 @@
 body {
     position: relative;
     background-color: #EDEDED;
-    background-repeat: no-repeat;
 }
 
 p {
@@ -52,21 +51,23 @@ footer {
     font-family: arial;
 }
 
-/*SKABELON SLUT*/
-
-/*SKEMA*/
 #mail {
     flex-grow: 1;
     flex-basis: auto;
 }
 
-#container_top {
+/*SKABELON SLUT*/
+
+/*SKEMA*/
+
+
+#skema .container_top {
     display: flex;
     justify-content: space-between;
     margin: 10vw;
 }
 
-.arrow {
+#skema .arrow {
     background-image: url(billeder/arrow.svg);
     background-repeat: no-repeat;
     height: 6vw;
@@ -74,13 +75,13 @@ footer {
 
 }
 
-.tidspunkt {
+#skema .tidspunkt {
     font-family: arial;
     font-size: 1.2rem;
     margin: 0;
 }
 
-.arrow2 {
+#skema .arrow2 {
     background-image: url(billeder/arrow.svg);
     background-repeat: no-repeat;
     transform: rotate(180deg);
@@ -89,7 +90,7 @@ footer {
 
 }
 
-.kolonne {
+#skema .kolonne {
     border: 1px solid white;
     margin: 2vw;
     padding: 1vw;
@@ -97,32 +98,40 @@ footer {
     background-color: #fffefe;
 }
 
-.kolonne_bottom1 {
+#skema .kolonne_bottom1 {
     border: 1px solid #EA5045;
     margin: 2vw;
     padding: 2vw;
 
     background-color: #EA5045;
     text-align: center;
+    position: relative;
 }
 
-.kolonne_bottom2 {
+#skema .kolonne_bottom2 {
     border: 1px solid #ea847c;
     margin: 2vw;
     padding: 2vw;
 
     background-color: #EA847C;
     text-align: center;
+    position: relative;
 }
 
-#container_top {
+#skema .container_top {
     display: flex;
     flex-grow: grow;
 }
 
-#container_bottom {
+#skema .container_bottom {
     flex-basis: 1;
 
+}
+
+#skema .pil {
+    position: absolute;
+    right: 3vw;
+    top: 5vw;
 }
 
 /*SKEMA SLUT*/
